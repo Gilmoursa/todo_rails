@@ -109,6 +109,10 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
     rdoc (4.2.0)
+    rspec-activemodel-mocks (1.0.2)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      rspec-mocks (>= 2.99, < 4.0)
     rspec-core (3.4.1)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -176,6 +180,7 @@ DEPENDENCIES
   jquery-rails
   minitest
   rails (= 4.2.5)
+  rspec-activemodel-mocks
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
